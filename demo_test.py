@@ -3,7 +3,7 @@ PLACE = "Bengaluru, India"
 ORIGIN = (12.9716, 77.5946)       # MG Road
 DESTINATION = (12.9784, 77.6408)  # Indiranagar
 
-CONTEXT = "ambulance"  # we can try for others also
+CONTEXT = "women"  # we can try for others also
 print("Running route safety demo...\n")
 results = evaluate_routes(
     place=PLACE,
