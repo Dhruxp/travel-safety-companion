@@ -1,0 +1,14 @@
+# open to addition
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
+env/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+risk_engine/data/raw/
