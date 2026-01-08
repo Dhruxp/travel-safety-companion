@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Travel Safety Companion</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>🚦 Travel Safety Companion</h1>
+    <p>Select context and evaluate the safest route.</p>
+
+    <label>Context:</label>
+    <select id="context">
+      <option value="night">Night Travel</option>
+      <option value="women">Women Safety</option>
+      <option value="ambulance">Ambulance</option>
+    </select>
+
+    <button onclick="evaluateRoute()">Find Safe Route</button>
+
+    <div id="results" class="results"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
